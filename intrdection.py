@@ -71,4 +71,67 @@ ans. Advantages of Python (Simple)
     
     10.High Productivity
         Kam code me zyada kaam ho jata hai, jisse development fast hota hai.
+
+
+
+
+4. what is identifires ?
+ans .Identifier woh naam hota hai jo hum variable, function, class, module ya object ko identify (pehchaan) karne ke liye dete hain.
+example.variable =name
+        functions=name
+        class=name
+        modules =name
+        
+        (name='paras',
+        age=12,
+        
+        def greet():
+            print("Hello")
+
+        class Student:
+            pass)
+        
+        name → Identifier
+        age → Identifier
+        greet → Identifier
+        Student → Identifier
+        
+        name is called identifiers
+    
+    
+    Rules of create any identifires??
+    
+    1. Must start with a letter (A-Z, a-z) or underscore (_)
+    example:- ✔ Correct:- name = "Paras"   
+                            _age = 20
+                
+                ❌ Wrong:-  1name = "Paras"
+
+    2. Cannot start with a number
+    example:-   ❌ Wrong:-  123abc= "Paras"
+                ✔ Correct:- abc123 = "Paras"   
+                            
+    3. Only letters, numbers, and underscore (_) are allowed
+        example:-✔ Correct:-student_name = "Paras"
+                ❌ Wrong:-  student-name = "Paras"
+                            student@name = "Paras"
+            
+    4. No spaces are allowed
+        example:-❌ Wrong:-  student name = "Paras"
+                            student-name = "Paras"
+                Correct:-student_name = "Paras"
+    
+    5. Keywords cannot be used as identifiers
+        example:-❌ Wrong:-if='paras'
+                            class='raja'
+                Coreecct:-Student_class=10
+    
+    6. Python is Case Sensitive
+                example:-❌ Wrong:-if='paras'
+                            print(IF)
+                        Coreecct:-name="paras"
+                            print(name)
+    
+    
+
 '''
