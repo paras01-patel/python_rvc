@@ -132,6 +132,5 @@ example.variable =name
                         Coreecct:-name="paras"
                             print(name)
     
-    
 
 '''
